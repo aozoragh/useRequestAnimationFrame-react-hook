@@ -1,0 +1,43 @@
+
+h2 {
+  font-size: 40px;
+  color: #666;
+}
+
+h4 {
+  font-size: 20px;
+  color: #666;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); ;
+}
+
+
+.v-btn {
+  text-transform: unset  !important;
+}
+
+.button {
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  letter-spacing: 0.3px !important ;
+}
